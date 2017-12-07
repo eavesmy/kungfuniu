@@ -1,0 +1,24 @@
+#top{
+	height:120px;
+	padding:10px;
+}
+
+#tab{
+	display:flex;
+	width:80vw;
+	margin:0 auto;
+}
+
+#tab .tab {
+	flex:1;
+	width:20vw;
+	background:#bbb;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+	padding:0.5rem 0;
+}
+
+#tab .tab:hover{
+	background:orange;
+}
