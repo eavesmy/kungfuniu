@@ -4,3 +4,31 @@
 	margin:0 auto;
 	background:#ccc;
 }
+
+.home-block{
+	width:70vw;
+	height:300px;
+	margin:0 auto;
+	margin-top:50px;
+	display:flex;
+}
+
+.left,.right{
+	flex:1;
+}
+
+.left{
+	background:#000
+}
+.right{
+	padding-left:5vw;
+}
+
+.title {
+	color:orange;
+	font-size:160%;
+	font-weight:800;
+	letter-spacing:0.5rem;
+	border-bottom:4px solid orange;
+	padding:10px 0;
+}
