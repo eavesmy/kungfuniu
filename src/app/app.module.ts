@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule} from '@angular/router';
+import { appRouting } from './app.router';
 
 
 import { AppComponent } from './app.component';
@@ -14,13 +14,12 @@ import { IntroduceComponent } from './introduce/introduce.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent,
     FooterComponent,
     IntroduceComponent
   ],
   imports: [
     BrowserModule,
-	RouterModule
+	appRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
