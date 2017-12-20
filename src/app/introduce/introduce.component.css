@@ -7,9 +7,23 @@
 }
 
 .left{
-	
+	flex:1;
 }
 
 .right{
-	
+	flex:5;
+	padding-left:50px;
 }
+
+.icon{
+	width:200px;
+	height:200px;
+}
+
+.name-title{
+	color:orange;
+	font-size:140%;
+	font-weight:600;
+}
+
+.describe{}

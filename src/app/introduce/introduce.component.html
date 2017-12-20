@@ -1,20 +1,18 @@
+<div class="block" *ngFor="let opt of List">
+	<div class="left">
+		<img class="icon" src={{opt.img}}>
+	</div>
+	<div class="right">
+		<div class="name">
 
-<div class="block">
-	<div class="left">aaa</div>
-	<div class="right"></div>
-</div>
+			<span class="name-title">教练姓名</span>
+			<span>{{opt.name}}</span>
 
-<div class="block">
-	<div class="left"></div>
-	<div class="right"></div>
-</div>
+		</div>
 
-<div class="block">
-	<div class="left"></div>
-	<div class="right"></div>
-</div>
+		<div class="describe">
+			{{opt.describe}}
+		</div>
 
-<div class="block">
-	<div class="left"></div>
-	<div class="right"></div>
+	</div>
 </div>
