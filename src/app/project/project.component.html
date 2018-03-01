@@ -1,9 +1,22 @@
 <div id="project">
-	<div class="menu" *ngFor="let opt of List">{{opt.project}}</div>
-	<div class="contain"></div>
-	<div class="info">
-		<p class="teacher"></p>
-		<p class="title"></p>
-		<p class="text"><p>
+	<div class="menu">
+		<div class="item" *ngFor="let item of List" (click)="GetDetail(item,$event)">
+			{{item.project}}
+		</div>
+	</div>
+	<div class="contain">
+		<div class="pic">
+		</div>
+		<div class="introduce">
+			<h4>
+				授课教练： {{Teacher}}
+			</h4>
+			<h4>
+				课程介绍：
+			</h4>
+			<p>
+				{{Introduce}}
+			</p>
+		</div>
 	</div>
 </div>

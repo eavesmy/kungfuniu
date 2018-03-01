@@ -1,12 +1,44 @@
 #project{
 	width:80vw;
+	height:72vh;
 	margin:15px auto;
 	border:1px solid #ccc;
-	
+	display:flex;
 }
 .menu{
-	margin:10px 20px;
+	flex:2;
+	border-right:1px solid #ccc;
 }
+
+.menu .item {
+	border-bottom:1px solid #ccc;
+	text-align:center;
+	font-size:120%;
+	padding:5px 0;
+	cursor:pointer;
+	color:#666;
+}
+
+.menu .item:active{
+	background:#ccc;
+}
+
 .contain{
-	height:50vh;
+	flex:11;
+
+	display:flex;
+}
+
+.contain .pic {
+	flex:7;
+}
+
+.contain .introduce{
+	border-left:1px solid #ccc;
+	flex:3;
+	padding:5px;
+}
+
+.choosen{
+	background:#ccc;
 }
