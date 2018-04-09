@@ -43,7 +43,7 @@ export class ProjectComponent implements OnInit {
         this.Teacher = item.teacher;
         this.Introduce = item.text;
 
-        let items:NodeListOf<Element> = document.querySelectorAll(".item");
+        let items:any = document.querySelectorAll(".item");
 		
 		for(let _item of items){
 			_item.className = "item";

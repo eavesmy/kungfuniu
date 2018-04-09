@@ -1,5 +1,11 @@
 #map {
 	width:80vw;
-	height:20vh;
-	margin:0 auto;
+	height:59vh;
+	margin:5vh auto;
+}
+
+p {
+	width:80vw;
+	margin:5vh auto;
+	color:#999;
 }
